@@ -1,0 +1,19 @@
+{
+    "name": "mmuslimabdulj/belajar-php-library",
+    "description": "Belajar Composer Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "OpenDebugger62\\BelajarLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MMuslimAbdulJ",
+            "email": "mmuslimabdulj@gmail.com"
+        }
+    ],
+    "require": {
+        "PHP" : ">=8.0"
+    }
+}
