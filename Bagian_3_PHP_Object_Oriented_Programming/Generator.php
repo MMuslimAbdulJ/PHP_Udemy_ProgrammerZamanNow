@@ -10,7 +10,7 @@ function getGenap(int $max) : Iterator {
     return new ArrayIterator($array);
 }
 
-foreach(getGanjil(50) as $key => $value) {
+foreach(getGenap(50) as $key => $value) {
     echo "Genap : $value" . PHP_EOL;
 }
 
