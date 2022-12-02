@@ -1,0 +1,34 @@
+{
+    "name": "mmuslimabdulj/bagian_10_php_unit_test",
+    "description": "Belajar PHP Unit Test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "OpenDebugger62\\Test\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OpenDebugger62\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MMuslimAbdulJ",
+            "email": "mmuslimabdulj@gmail.com"
+        }
+    ],
+    "require": {
+        "PHP" : ">=8.0"
+    }, 
+    "require-dev": {
+        "phpunit/phpunit" : "9.5.5"
+    },
+    "scripts": {
+        "test" : "phpunit --configuration phpunit.xml",
+        "test:product" : "phpunit --configuration phpunit.xml --testsuite product",
+        "test:counter" : "phpunit --configuration phpunit.xml --testsuite counter",
+        "test:math" : "phpunit --configuration phpunit.xml --testsuite math",
+        "test:person" : "phpunit --configuration phpunit.xml --testsuite person"
+    }
+}
